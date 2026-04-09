@@ -7,7 +7,7 @@ pipeline{
     stages { 
         stage('Clone') { 
             steps { 
-                git 'https://github.com/vijaykadam2405/maven-jenkins-demo-.git' 
+                git 'https://github.com/vijaykadam2405/maven_jenkins_demo.git' 
             } 
         } 
  
